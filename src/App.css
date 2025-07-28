@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* .ipaddress-tracker{
+    height: 100vh;
+} */
+
+.ipaddress-text-container{
+    background-image: url(./assets/pattern-bg-desktop.png);
+    height: 30%;
+    align-items: center;
+    text-align: center;
+}
