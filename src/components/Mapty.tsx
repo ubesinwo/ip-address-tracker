@@ -1,11 +1,18 @@
+
+// import React from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 
-export default function Mapty() {
+type MaptyProps = {
+  lat: number;
+  lon: number;
+};
+
+export default function Mapty({ lat, lon }: MaptyProps) {
   return (
     <div style={{ height: "500px", width: "100%" }}>
       <MapContainer
-        center={[6.5244, 3.3792]}
+        center={[lat, lon]}
         zoom={13}
         style={{ height: "100%", width: "100%" }}
       >
